@@ -1,0 +1,23 @@
+AI-Powered YouTube Content Moderation: Approach & Methodology
+Introduction
+With the vast amount of user-generated content on YouTube, ensuring a safe and engaging online environment is crucial. This project focuses on scraping, cleaning, analyzing, and moderating YouTube video metadata and comments to identify spam, toxicity, and sentiment trends.
+
+Methodology
+Web Scraping
+
+Utilized YouTube’s API or web scraping techniques to extract video titles, descriptions, comments, likes, and other metadata.
+Data Cleaning & Preprocessing
+
+Removed special characters, HTML tags, and stopwords.
+Converted text to lowercase and applied lemmatization for NLP processing.
+Sentiment Analysis
+
+Used VADER (rule-based)  to classify comments into Positive, Negative, or Neutral categories.
+Spam & Toxic Comment Detection
+
+Applied keyword-based filtering for initial spam detection. Future enhancements include ML-based classification.
+Data Visualization
+
+Generated word clouds, bar charts, and sentiment distribution graphs to uncover insights from the dataset.
+Conclusion & Future Scope
+This project lays the foundation for AI-driven content moderation. Future work includes advanced ML-based spam detection, real-time moderation dashboards, and model fine-tuning for better accuracy.
